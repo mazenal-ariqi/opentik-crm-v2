@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Bell, ChevronLeft, ClipboardList, FileText, LayoutDashboard, Menu, Network, Search, Settings, ShieldCheck, Users, Wrench } from 'lucide-react'
 import { dashboardStats, recentActivity } from './data/dashboard'
 import { loadSettings } from './services/storage'
-
+ 
 const navigation = [
   ['لوحة التحكم', LayoutDashboard], ['العملاء', Users], ['المشاريع والمواقع', ClipboardList],
   ['CCTV', ShieldCheck], ['الشبكات', Network], ['الصيانة', Wrench], ['عروض الأسعار والفواتير', FileText], ['الإعدادات', Settings]
